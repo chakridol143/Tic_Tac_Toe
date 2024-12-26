@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+    width: 30%;
+}
+#cell0,#cell1,#cell2,#cell3,#cell4,#cell5,#cell6,#cell7,#cell8{
+    background-color: white;
+    color: rgba(57, 2, 238, 0.55);
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    align-content: center;
+    justify-content: center;
+}
+p{
+    font-size: 30px;
+    color: rgb(255, 1, 18);
+}
